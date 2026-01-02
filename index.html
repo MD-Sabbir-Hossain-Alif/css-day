@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    header h1 {
+        font-size: 40px;
+        font-weight: 900;
+        margin: 20px 0;
+        background: black;
+    }
+
+    .pragraphe {
+        font-size: 20px;
+        background-color: wheat;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    #content {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #task-6 h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #task-6 p {
+        text-align: justify;
+        font-size: 18px;
+        width: 80%;
+    }
+
+    button {
+        display: block;
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: orange;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #content p span {
+        font-weight: 700;
+        color: red;
+        display: inline-block;
+        border: 2px solid black;
+        padding: 2px 5px;
+    }
+
+    .box-1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background: darkslategray;
+    }
+
+    .child-box {
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        color: white;
+        font-size: 20px;
+    }
+
+    .child-box:hover {
+        background-color: darkorange;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <header>
+        <h1 style="text-align: center; color: yellow;">Welcome to CSS Day!</h1>
+    </header>
+    <div id="task-6">
+        <img src="adventure.jpg" alt="this is an image that shows adventure"
+            style=" display: block; margin: 0 auto; width: 80%; height: auto; border: 5px solid black; border-radius: 10px; ">
+
+        <div id="content">
+            <h2>Adventure</h2>
+            <p style="background: aquamarine;"><span style="color: royalblue;">Lorem</span>, ipsum dolor sit amet
+                consectetur adipisicing elit. Hic magnam amet eum
+                fugit ipsam vitae ab aliquam consequuntur <span>lorem</span> voluptates architecto, <span
+                    style="background: yellow;">perferendis</span> at dolores eius repudiandae
+                aspernatur illum! Ipsam, nam quas? Lorem ipsum dolor sit l amet. Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Quae, quam!</p>
+            <button>Click me</button>
+        </div>
+    </div>
+    <div>
+        <p style="color: blue;" id="border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, saepe quo.
+            Tenetur
+            soluta repellendus dicta eum
+            perspiciatis eos dignissimos pariatur, nam aliquam non iusto architecto, et ad deserunt unde qui.
+            Dignissimos
+            itaque deleniti ullam debitis hic nesciunt delectus voluptates enim minima iste veritatis natus, quasi
+            incidunt.
+            Magni deserunt consectetur perspiciatis ducimus fugiat tempora eum soluta nemo ipsam omnis. Temporibus modi,
+            asperiores aut voluptatum, nesciunt sapiente iste minima mollitia expedita, saepe amet vitae laboriosam
+            nobis
+            voluptatem voluptas! Architecto dolorum ab hic fugit est ipsa saepe eveniet exercitationem. Quaerat officia
+            quisquam, aliquam aspernatur repudiandae eos reprehenderit non, autem porro dolorem consequuntur blanditiis.
+        </p>
+        <p style="color: red; font-weight: 700;" class="pragraphe">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Numquam, saepe quo.
+            Tenetur soluta repellendus dicta eum
+            perspiciatis eos dignissimos pariatur, nam aliquam non iusto architecto, et ad deserunt unde qui.
+            Dignissimos
+            itaque deleniti ullam debitis hic nesciunt delectus voluptates enim minima iste veritatis natus, quasi
+            incidunt.
+            Magni deserunt consectetur perspiciatis ducimus fugiat tempora eum soluta nemo ipsam omnis. Temporibus modi,
+            asperiores aut voluptatum, nesciunt sapiente iste minima mollitia expedita, saepe amet vitae laboriosam
+            nobis
+            voluptatem voluptas! Architecto dolorum ab hic fugit est ipsa saepe eveniet exercitationem. Quaerat officia
+            quisquam, aliquam aspernatur repudiandae eos reprehenderit non, autem porro dolorem consequuntur blanditiis.
+        </p>
+        <p style="color: green;" class="pragraphe" id="border-2">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit.
+            Numquam, saepe quo. Tenetur soluta repellendus dicta eum
+            perspiciatis eos dignissimos pariatur, nam aliquam non iusto architecto, et ad deserunt unde qui.
+            Dignissimos
+            itaque deleniti ullam debitis hic nesciunt delectus voluptates enim minima iste veritatis natus, quasi
+            incidunt.
+            Magni deserunt consectetur perspiciatis ducimus fugiat tempora eum soluta nemo ipsam omnis. Temporibus modi,
+            asperiores aut voluptatum, nesciunt sapiente iste minima mollitia expedita, saepe amet vitae laboriosam
+            nobis
+            voluptatem voluptas! Architecto dolorum ab hic fugit est ipsa saepe eveniet exercitationem. Quaerat officia
+            quisquam, aliquam aspernatur repudiandae eos reprehenderit non, autem porro dolorem consequuntur blanditiis.
+        </p>
+    </div>
+    <div style=" display: flex; justify-content: space-between; align-items: center; margin-bottom: 50px; ">
+        <div class="ol">
+            <ol
+                style=" padding: 5px; border: 2px solid black; width: 200px; border-radius: 5px; background-color: brown; color: #fff; font-weight: 700; padding: 20px;">
+                <li>First Item</li>
+                <li>Second Item</li>
+                <li>Third Item</li>
+            </ol>
+        </div>
+        <div class="ol">
+            <ul
+                style=" padding: 5px; border: 2px solid black; width: 200px; border-radius: 5px; background-color: green; color: #fff; font-weight: 700; padding: 20px;">
+                <li>First Item</li>
+                <li>Second Item</li>
+                <li>Third Item</li>
+            </ul>
+        </div>
+
+        <div class="ol">
+            <ol
+                style=" padding: 5px; border: 2px solid black; width: 200px; border-radius: 5px; background-color: brown; color: #fff; font-weight: 700; padding: 20px;">
+
+                <li>First Item</li>
+                <li>Second Item</li>
+                <li>Third Item</li>
+            </ol>
+        </div>
+        <div class="ol">
+            <ul
+                style=" padding: 5px; border: 2px solid black; width: 200px; border-radius: 5px; background-color: green; color: #fff; font-weight: 700; padding: 20px;">
+                <li>First Item</li>
+                <li>Second Item</li>
+                <li>Third Item</li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <div class="box">
+            <h2
+                style="text-align: center; padding: 50px 0; background-color: #fff; opacity: 0.5; font-weight: 900; border-radius: 10px 10px 0  0 ;">
+                This is a Box</h2>
+            <p style="background: none; color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis, eligendi modi iusto alias et
+                repellendus reprehenderit neque unde cupiditate laborum nisi ipsa animi sed numquam harum quaerat,
+                delectus obcaecati culpa at accusantium. Similique quod modi reprehenderit deserunt nam vero? Minus
+                nostrum eligendi at similique perferendis necessitatibus, blanditiis magni autem alias, facilis vel,
+                ducimus sed reiciendis enim dolore corrupti hic minima eveniet esse dolores consequuntur praesentium ea.
+                Architecto reprehenderit deserunt, quos alias, nobis nam impedit exercitationem neque unde blanditiis in
+                minima at cumque, quibusdam voluptatibus optio veritatis porro? Hic maxime saepe quis nostrum, dolores
+                cumque esse asperiores atque nesciunt excepturi nulla.</p>
+        </div>
+        <div class="box-1">
+            <div class="child-box" style=" height: 200px; background-color: coral; margin: 10px; ">box-1
+            </div>
+            <div class="child-box"
+                style=" height: 200px; background-color: coral; margin: 10px; display: none;">box-2</div>
+            <!-- we use display none to hide this box it's like this box never was here-->
+            <div class="child-box" style=" height: 200px; background-color: coral; margin: 10px; ">box-3
+            </div>
+            <div class="child-box"
+                style=" height: 200px; background-color: coral; margin: 10px; visibility: hidden;">box-4
+            </div> <!-- we use visibility hidden to hide this box but it will still take space in the layout -->
+            <div class="child-box" style=" height: 200px; background-color: coral; margin: 10px; ">box-5
+            </div>
+            <div class="child-box"
+                style=" height: 200px; background-color: coral; margin: 10px; opacity: 0;">box-6</div>
+            <!-- we use opacity 0 to make this box invisible but it will still take space in the layout -->
+            <div class="child-box" style=" height: 200px; background-color: coral; margin: 10px; ">box-7
+            </div>
+        </div>
+        <div class="box second">
+            <h2
+                style="text-align: center; padding: 50px 0; background-color: #fff; opacity: 0.5; font-weight: 900; border-radius: 10px 10px 0  0 ;">
+                This is a Box</h2>
+            <p style="background: none; color: greenyellow;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis,
+                eligendi modi iusto alias et
+                repellendus reprehenderit neque unde cupiditate laborum nisi ipsa animi sed numquam harum quaerat,
+                delectus obcaecati culpa at accusantium. Similique quod modi reprehenderit deserunt nam vero? Minus
+                nostrum eligendi at similique perferendis necessitatibus, blanditiis magni autem alias, facilis vel,
+                ducimus sed reiciendis enim dolore corrupti hic minima eveniet esse dolores consequuntur praesentium ea.
+                Architecto reprehenderit deserunt, quos alias, nobis nam impedit exercitationem neque unde blanditiis in
+                minima at cumque, quibusdam voluptatibus optio veritatis porro? Hic maxime saepe quis nostrum, dolores
+                cumque esse asperiores atque nesciunt excepturi nulla.</p>
+        </div>
+    </div>
+</body>
+
+</html>
